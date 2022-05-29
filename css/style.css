@@ -1,0 +1,196 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.header {
+  background: linear-gradient(100.51deg, #4EBEFE 0%, #378FD9 100%);
+  padding: 60px 0 93px;
+}
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer {
+  margin-top: 140px;
+  width: 548px;
+}
+
+.title {
+  font-size: 37px;
+  line-height: 49px;
+}
+
+.title span {
+  font-size: 59px;
+  line-height: 73px;
+}
+
+.intro {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 35px 0 43px;
+  width: 390px;
+}
+
+.title,
+.title span,
+.intro {
+  color: #fff;
+}
+
+.btn-dream {
+  background-color: #ffd429;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 900;
+  display: block;
+  padding: 15px 0 14px;
+  text-align: center;
+  text-decoration: none;
+  width: 222px;
+  transition: all 0.5s ease;
+}
+
+.btn-dream:hover {
+  background-color: #fff;
+}
+
+.main-container {
+  margin: 100px auto;
+}
+
+.container-title {
+  font-size: 30px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.item-time {
+  width: 283px;
+  background: url(../img/time.jpg) no-repeat center top;
+  margin: 80px 131px 0 44px;
+}
+
+.item-beach {
+  width: 258px;
+  background: url(../img/beach.jpg) no-repeat center top;
+  margin-top: 72px;
+}
+
+.item-launch {
+  width: 293px;
+  background: url(../img/launch.jpg) no-repeat center top;
+  margin: 70px 97px 0 124px;
+}
+
+.item-title {
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.time {
+  margin-top: 82px;
+}
+
+.item-text {
+  margin: 15px auto 0;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.beach {
+  margin-top: 90px;
+}
+
+.launch {
+  margin-top: 92px;
+}
+
+.form {
+  background-color: #ecf3f8;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.title-form {
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 70px;
+}
+
+input {
+  height: 56px;
+  margin-bottom: 16px;
+  padding: 20px 30px;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid #C9C9C9;
+  border-radius: 3px;
+  width: 340px;
+}
+
+
+.btn {
+     margin: 0 auto;
+     width: 340px;
+}
+
+.footer {
+  background-color: #164d7a;
+  text-align: center;
+  padding: 58px 0 57px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 27px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
