@@ -37,24 +37,21 @@ h6 {
 }
 
 .container {
-  width: 1230px;
+  width: 1170px;
   margin: 0 auto;
   padding: 0;
 }
 
 .wrapper {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-}
-
-.offer {
-  margin: 140px 40px 0 0;
 }
 
 .title {
   font-size: 37px;
   line-height: 49px;
-  width: 548px;
+  width: 540px;
 }
 
 .title span {
@@ -112,22 +109,23 @@ h6 {
   justify-content: space-between;
 }
 
+.item {
+  width: 289px;
+}
+
 .item-time {
-  width: 283px;
   background: url(../img/time.jpg) no-repeat center top;
-  margin: 80px 131px 0 44px;
+  margin-top: 80px;
 }
 
 .item-beach {
-  width: 258px;
   background: url(../img/beach.jpg) no-repeat center top;
   margin-top: 72px;
 }
 
 .item-launch {
-  width: 293px;
   background: url(../img/launch.jpg) no-repeat center top;
-  margin: 70px 97px 0 124px;
+  margin-top: 70px;
 }
 
 .item-title {
@@ -199,6 +197,7 @@ input {
   line-height: 27px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1400px) {
@@ -207,20 +206,7 @@ input {
   }
 
   .offer {
-    width: 459px;
-  }
-
-  .title {
-    font-size: clamp(10px, 12vw, 37px);
-  }
-
-  .title span {
-    font-size: clamp(20px, 12vw, 59px);
-  }
-
-  .items {
-    display: flex;
-    justify-content: center;
+    width: clamp(300px, 12vw, 548px);
   }
 }
 
@@ -229,35 +215,16 @@ input {
     width: 960px;
   }
 
-  .wrapper {
-    align-items: center;
-  }
-
-  .offer {
-    margin: auto;
-    width: 410px;
-  }
-
   .title {
-    width: 420px;
+    width: 450px;
   }
 
-  .travel {
-    width: 541px;
-    height: 541px;
+  .title span {
+    font-size: 50px;
   }
 
-  .items {
-    display: flex;
-    justify-content: center;
-  }
-
-  .item-time {
-    margin-right: 70px;
-  }
-
-  .item-launch {
-    margin-left: 70px;
+  .intro {
+    width: 370px;
   }
 }
 
@@ -272,7 +239,6 @@ input {
 
   .travel {
     display: block;
-    margin-top: 50px;
   }
 
   .offer {
@@ -280,11 +246,10 @@ input {
   }
 
   .title {
-    width: 90%;
+    width: 100%;
   }
-
   .intro {
-    width: 90%;
+    width: 77%;
   }
 
   .main-container {
@@ -328,40 +293,33 @@ input {
     width: 540px;
   }
 
-  .intro {
-    width: 85%;
+  .offer {
+    width: 100%;
   }
 
   .travel {
-    width: 400px;
-    height: 400px;
+    margin-top: 50px;
+    width: 540px;
+    height: 540px;
   }
+}
 
-  @media screen and (max-width: 576px) {
-    .container {
-      width: 90%;
-    }
-
-    .offer {
-      max-width: 100%;
-    }
-
-    .intro {
-      width: 70%;
-    }
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
   }
 
   .form-items {
-    width: 100%;
+    width: 70%;
+    margin: auto;
   }
 
   .btn {
     margin: 0;
-    
   }
 
   .input {
-    width: 100%;
+    width: 300px;
   }
 
   .travel {
