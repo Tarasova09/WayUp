@@ -39,8 +39,7 @@ h6 {
 .container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0;
-}
+  }
 
 .wrapper {
   display: flex;
