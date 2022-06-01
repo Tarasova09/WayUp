@@ -233,7 +233,7 @@ font-size: 50px;
 .intro {
 width: 370px;
 }
-
+}
 
 @media screen and (max-width: 992px) {
   .container {
@@ -321,4 +321,5 @@ margin-bottom: 50px;
   .btn {
     margin: 0;
   }
-    }
+}
+ 
