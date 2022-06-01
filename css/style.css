@@ -74,6 +74,11 @@ h6 {
   color: #fff;
 }
 
+.travel {
+  max-width: 641px;
+  width: 100%;
+}
+
 .btn-dream {
   background-color: #ffd429;
   font-family: "Montserrat", sans-serif;
@@ -207,9 +212,9 @@ input {
     width: 1170px;
   }
 
-  .offer {
+ .offer {
     width: clamp(300px, 12vw, 548px);
-  }
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -217,18 +222,18 @@ input {
     width: 960px;
   }
 
-  .title {
-    width: 450px;
-  }
-
-  .title span {
-    font-size: 50px;
-  }
-
-  .intro {
-    width: 370px;
-  }
+.title {
+  width: 450px;
 }
+
+.title span {
+font-size: 50px;
+}
+
+.intro {
+width: 370px;
+}
+
 
 @media screen and (max-width: 992px) {
   .container {
@@ -239,9 +244,9 @@ input {
     margin-bottom: 40px;
   }
 
-  .travel {
-    display: block;
-  }
+.travel {
+  display: block;
+}
 
   .offer {
     width: 100%;
@@ -250,9 +255,10 @@ input {
   .title {
     width: 100%;
   }
-  .intro {
-    width: 77%;
-  }
+
+.intro {
+  width: 77%;
+} 
 
   .main-container {
     width: 720px;
@@ -269,53 +275,44 @@ input {
     align-items: center;
   }
 
+.container-title {
+margin-bottom: 50px;
+}
+
   .item {
     max-width: 100%;
   }
 
-  .item-time {
-    margin: 50px auto;
-  }
+  .item:not(:last-child) {
+    margin: 0 auto 50px auto;
+}
 
-  .item-beach {
+.item:last-child {
     margin: 0 auto;
-  }
-
-  .item-launch {
-    margin: 50px auto 0;
-  }
+}
 
   .form {
-    padding: 50px;
+    padding: 50px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .container {
     width: 540px;
-  }
-
-  .offer {
-    width: 100%;
-  }
-
-  .travel {
-    margin-top: 50px;
-    width: 540px;
-    height: 540px;
-  }
+    padding: 0 10px;
+      }
+  
+ 
+.btn {
+margin-bottom: 50px;
 }
+  }
 
 @media screen and (max-width: 576px) {
   .container {
     width: 100%;
   }
-
-  .travel {
-  width: 250px;
-  height: 250px;
-  }
-  
+   
   .form-items {
     width: 70%;
     margin: auto;
@@ -324,4 +321,4 @@ input {
   .btn {
     margin: 0;
   }
- }
+    }
